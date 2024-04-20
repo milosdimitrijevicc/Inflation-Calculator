@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
 	<div class="background-overlay">
 
 		<h1>Inflation Calculator</h1>
@@ -13,11 +14,14 @@
 			<h3>Inflation Rate: <input type="number" min="0.1" id="inflationRate"> %</h3> <br>
 			<h3>Calculate how much <input type="number" min="1" id="money"> € will be worth in <input type="number" min="1" id="years"> years?</h3>
 
-			<button onclick="inflationCalculator()">Calculate</button>
+			<button id="btn">Calculate</button>
+
+			<p id="result"></p>
+
 		</div>
 
 	</div>
 
-	<script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

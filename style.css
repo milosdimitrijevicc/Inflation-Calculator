@@ -40,7 +40,7 @@ h3 {
 }
 
 .container input {
-	max-width: 80px;
+	max-width: 120px;
 	height: 40px;
 	font-size: 18px;
 	text-align: center;
@@ -58,4 +58,8 @@ h3 {
 .new-value {
 	margin-top: 20px;
 	font-size: 20px;
+}
+
+#result{
+	margin-top: 1rem;
 }
